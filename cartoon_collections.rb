@@ -22,5 +22,6 @@ def find_the_cheese(array)
   array.each do |word|
     if word in cheese_types
       word
+    end
   end
 end
